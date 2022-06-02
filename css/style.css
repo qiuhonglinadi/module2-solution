@@ -1,0 +1,26 @@
+.item-title {
+	color: blue;
+}
+
+.item {
+	float: left;
+    width: 31%;
+    padding: 4px;
+    border: 2px solid black;
+}
+
+
+@media screen and (max-width: 991px) {
+	.item {
+		width: 48%;
+	}
+	.last-item {
+		width:  100% !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+  .item {
+    width: 100%;
+  }
+}
