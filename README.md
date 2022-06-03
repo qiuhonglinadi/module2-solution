@@ -1,2 +1,3 @@
 # module2-solution
-coursera test
+
+This is the complete project for module2-slution.
